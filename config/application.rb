@@ -14,6 +14,12 @@ module RailsBackgroundJobs
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
-    config.active_job.queue_adapter = :sidekiq
+    puts "configuring queue adapter"
+    config.active_job.queue_adapter = :google_cloud_pubsub
+    # config.active_job.queue_adapter = ActiveJob::GoogleCloudPubsub::Adapter.new(
+    #   pubsub: Google::Cloud::Pubsub.new(
+    #     project: 'chingor-rails'
+    #   )
+    # )
   end
 end
