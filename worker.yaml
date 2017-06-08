@@ -1,7 +1,12 @@
 runtime: ruby
 env: flex
 
-entrypoint: bundle exec rails server -p 8080
+service: sidekiq
+
+entrypoint: bundle exec sidekiq -q default -q mailers
+
+health_check:
+  enable_health_check: False
 
 env_variables:
   REDIS_PROVIDER: REDIS_URL
