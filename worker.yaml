@@ -3,7 +3,7 @@ env: flex
 
 service: worker
 
-entrypoint: bundle exec activejob-google_cloud_pubsub-worker
+entrypoint: bin/activejob-google_cloud_pubsub-worker
 
 health_check:
   enable_health_check: False
