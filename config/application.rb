@@ -21,5 +21,6 @@ module RailsBackgroundJobs
     #   )
     # )
     config.google_cloud.use_logging = true
+    config.google_cloud.use_debugger = true
   end
 end
