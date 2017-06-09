@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 gem 'activejob-google_cloud_pubsub'
 gem 'stackdriver'
+gem 'google-cloud-debugger', require: 'google/cloud/debugger/rails'
 # gem 'google-cloud-logging', require: 'google/cloud/logging/rails'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

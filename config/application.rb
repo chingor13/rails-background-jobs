@@ -20,7 +20,7 @@ module RailsBackgroundJobs
     #     project: 'chingor-rails'
     #   )
     # )
-    config.google_cloud.use_logging = true
-    config.google_cloud.use_debugger = true
+    # config.google_cloud.use_logging = true
+    # config.google_cloud.use_debugger = true
   end
 end
