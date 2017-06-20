@@ -12,7 +12,11 @@ You can find the accompanying tutorials:
 
 ## Branches
 
+<<<<<<< HEAD
 The sample repository contains 2 branches:
+=======
+The sample repository contains a few branches:
+>>>>>>> master
 
 * [sidekiq][sidekiq-branch] - Use sidekiq with Foreman
 * [sidekiq-worker][sidekiq-worker-branch] - Use sidekiq with 2 App Engine Services
