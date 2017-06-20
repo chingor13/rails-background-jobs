@@ -17,7 +17,7 @@ The sample repository contains 2 branches:
 * [sidekiq][sidekiq-branch] - Use sidekiq with Foreman
 * [sidekiq-worker][sidekiq-worker-branch] - Use sidekiq with 2 App Engine Services
 * [pubsub][pubsub-branch] - Use Google Cloud Pub/Sub with Foreman
-* [pubsub][pubsub-worker-branch] - Use Google Cloud Pub/Sub with 2 App Engine Services
+* [pubsub-worker][pubsub-worker-branch] - Use Google Cloud Pub/Sub with 2 App Engine Services
 
 [google-app-engine-flex]: https://cloud.google.com/appengine/docs/flexible/ruby/
 [sidekiq-branch]: https://github.com/chingor13/rails-background-jobs/tree/sidekiq
