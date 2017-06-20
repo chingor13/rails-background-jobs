@@ -1,7 +1,7 @@
 runtime: ruby
 env: flex
 
-entrypoint: bundle exec rails server -p 8080
+entrypoint: bundle exec foreman start
 
 env_variables:
   SECRET_KEY_BASE: c29805bc65c322a942aebd6317e6c3814336aec8a7b13be4179f2005e09096acccf8d6fda9076c171578229baf09dc8ef12bde92ea1820ab9e46308eef932e36
